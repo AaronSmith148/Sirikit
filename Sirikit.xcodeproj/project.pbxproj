@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55CF20D2B894E3F0016955A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF20C2B894E3F0016955A /* AppDelegate.swift */; };
+		B55CF2112B894E3F0016955A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B55CF20F2B894E3F0016955A /* Main.html */; };
+		B55CF2132B894E3F0016955A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2122B894E3F0016955A /* Icon.png */; };
+		B55CF2152B894E3F0016955A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2142B894E3F0016955A /* Style.css */; };
+		B55CF2172B894E3F0016955A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF2162B894E3F0016955A /* SceneDelegate.swift */; };
+		B55CF2192B894E3F0016955A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF2182B894E3F0016955A /* ViewController.swift */; };
+		B55CF21C2B894E3F0016955A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55CF21A2B894E3F0016955A /* LaunchScreen.storyboard */; };
+		B55CF21F2B894E3F0016955A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55CF21D2B894E3F0016955A /* Main.storyboard */; };
+		B55CF22B2B894E410016955A /* SirikitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF22A2B894E410016955A /* SirikitTests.swift */; };
+		B55CF2352B894E410016955A /* SirikitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF2342B894E410016955A /* SirikitUITests.swift */; };
+		B55CF2372B894E410016955A /* SirikitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF2362B894E410016955A /* SirikitUITestsLaunchTests.swift */; };
+		B55CF23D2B894E410016955A /* Sirikit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B55CF23C2B894E410016955A /* Sirikit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B55CF2422B894E410016955A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55CF2412B894E410016955A /* SafariWebExtensionHandler.swift */; };
+		B55CF2452B894E410016955A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2442B894E410016955A /* _locales */; };
+		B55CF2472B894E410016955A /* images in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2462B894E410016955A /* images */; };
+		B55CF2492B894E410016955A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2482B894E410016955A /* manifest.json */; };
+		B55CF24B2B894E410016955A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B55CF24A2B894E410016955A /* background.js */; };
+		B55CF24D2B894E410016955A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B55CF24C2B894E410016955A /* content.js */; };
+		B55CF24F2B894E410016955A /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B55CF24E2B894E410016955A /* popup.html */; };
+		B55CF2512B894E410016955A /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2502B894E410016955A /* popup.css */; };
+		B55CF2532B894E410016955A /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2522B894E410016955A /* popup.js */; };
+		B55CF2552B894E410016955A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55CF2202B894E400016955A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55CF2272B894E410016955A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55CF2012B894E3F0016955A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55CF2082B894E3F0016955A;
+			remoteInfo = Sirikit;
+		};
+		B55CF2312B894E410016955A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55CF2012B894E3F0016955A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55CF2082B894E3F0016955A;
+			remoteInfo = Sirikit;
+		};
+		B55CF23E2B894E410016955A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55CF2012B894E3F0016955A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55CF23B2B894E410016955A;
+			remoteInfo = "Sirikit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B55CF25B2B894E410016955A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B55CF23D2B894E410016955A /* Sirikit Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B55CF2092B894E3F0016955A /* Sirikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sirikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55CF20C2B894E3F0016955A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55CF2102B894E3F0016955A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		B55CF2122B894E3F0016955A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B55CF2142B894E3F0016955A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B55CF2162B894E3F0016955A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B55CF2182B894E3F0016955A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B55CF21B2B894E3F0016955A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55CF21E2B894E3F0016955A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55CF2202B894E400016955A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55CF2212B894E400016955A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55CF2262B894E410016955A /* SirikitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirikitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55CF22A2B894E410016955A /* SirikitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirikitTests.swift; sourceTree = "<group>"; };
+		B55CF2302B894E410016955A /* SirikitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SirikitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55CF2342B894E410016955A /* SirikitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirikitUITests.swift; sourceTree = "<group>"; };
+		B55CF2362B894E410016955A /* SirikitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirikitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B55CF23C2B894E410016955A /* Sirikit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sirikit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55CF2412B894E410016955A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B55CF2442B894E410016955A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		B55CF2462B894E410016955A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		B55CF2482B894E410016955A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		B55CF24A2B894E410016955A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		B55CF24C2B894E410016955A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		B55CF24E2B894E410016955A /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		B55CF2502B894E410016955A /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		B55CF2522B894E410016955A /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		B55CF2542B894E410016955A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55CF2652B894E480016955A /* Sirikit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sirikit.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55CF2062B894E3F0016955A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF2232B894E410016955A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF22D2B894E410016955A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF2392B894E410016955A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55CF2002B894E3F0016955A = {
+			isa = PBXGroup;
+			children = (
+				B55CF20B2B894E3F0016955A /* Sirikit */,
+				B55CF2292B894E410016955A /* SirikitTests */,
+				B55CF2332B894E410016955A /* SirikitUITests */,
+				B55CF2402B894E410016955A /* Sirikit Extension */,
+				B55CF20A2B894E3F0016955A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55CF20A2B894E3F0016955A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF2092B894E3F0016955A /* Sirikit.app */,
+				B55CF2262B894E410016955A /* SirikitTests.xctest */,
+				B55CF2302B894E410016955A /* SirikitUITests.xctest */,
+				B55CF23C2B894E410016955A /* Sirikit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55CF20B2B894E3F0016955A /* Sirikit */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF2652B894E480016955A /* Sirikit.entitlements */,
+				B55CF20C2B894E3F0016955A /* AppDelegate.swift */,
+				B55CF2162B894E3F0016955A /* SceneDelegate.swift */,
+				B55CF2182B894E3F0016955A /* ViewController.swift */,
+				B55CF21A2B894E3F0016955A /* LaunchScreen.storyboard */,
+				B55CF21D2B894E3F0016955A /* Main.storyboard */,
+				B55CF2202B894E400016955A /* Assets.xcassets */,
+				B55CF2212B894E400016955A /* Info.plist */,
+				B55CF20E2B894E3F0016955A /* Resources */,
+			);
+			path = Sirikit;
+			sourceTree = "<group>";
+		};
+		B55CF20E2B894E3F0016955A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF20F2B894E3F0016955A /* Main.html */,
+				B55CF2122B894E3F0016955A /* Icon.png */,
+				B55CF2142B894E3F0016955A /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B55CF2292B894E410016955A /* SirikitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF22A2B894E410016955A /* SirikitTests.swift */,
+			);
+			path = SirikitTests;
+			sourceTree = "<group>";
+		};
+		B55CF2332B894E410016955A /* SirikitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF2342B894E410016955A /* SirikitUITests.swift */,
+				B55CF2362B894E410016955A /* SirikitUITestsLaunchTests.swift */,
+			);
+			path = SirikitUITests;
+			sourceTree = "<group>";
+		};
+		B55CF2402B894E410016955A /* Sirikit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF2412B894E410016955A /* SafariWebExtensionHandler.swift */,
+				B55CF2542B894E410016955A /* Info.plist */,
+				B55CF2432B894E410016955A /* Resources */,
+			);
+			path = "Sirikit Extension";
+			sourceTree = "<group>";
+		};
+		B55CF2432B894E410016955A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B55CF2442B894E410016955A /* _locales */,
+				B55CF2462B894E410016955A /* images */,
+				B55CF2482B894E410016955A /* manifest.json */,
+				B55CF24A2B894E410016955A /* background.js */,
+				B55CF24C2B894E410016955A /* content.js */,
+				B55CF24E2B894E410016955A /* popup.html */,
+				B55CF2502B894E410016955A /* popup.css */,
+				B55CF2522B894E410016955A /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55CF2082B894E3F0016955A /* Sirikit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55CF25C2B894E410016955A /* Build configuration list for PBXNativeTarget "Sirikit" */;
+			buildPhases = (
+				B55CF2052B894E3F0016955A /* Sources */,
+				B55CF2062B894E3F0016955A /* Frameworks */,
+				B55CF2072B894E3F0016955A /* Resources */,
+				B55CF25B2B894E410016955A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55CF23F2B894E410016955A /* PBXTargetDependency */,
+			);
+			name = Sirikit;
+			productName = Sirikit;
+			productReference = B55CF2092B894E3F0016955A /* Sirikit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55CF2252B894E410016955A /* SirikitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55CF25F2B894E410016955A /* Build configuration list for PBXNativeTarget "SirikitTests" */;
+			buildPhases = (
+				B55CF2222B894E410016955A /* Sources */,
+				B55CF2232B894E410016955A /* Frameworks */,
+				B55CF2242B894E410016955A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55CF2282B894E410016955A /* PBXTargetDependency */,
+			);
+			name = SirikitTests;
+			productName = SirikitTests;
+			productReference = B55CF2262B894E410016955A /* SirikitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55CF22F2B894E410016955A /* SirikitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55CF2622B894E410016955A /* Build configuration list for PBXNativeTarget "SirikitUITests" */;
+			buildPhases = (
+				B55CF22C2B894E410016955A /* Sources */,
+				B55CF22D2B894E410016955A /* Frameworks */,
+				B55CF22E2B894E410016955A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55CF2322B894E410016955A /* PBXTargetDependency */,
+			);
+			name = SirikitUITests;
+			productName = SirikitUITests;
+			productReference = B55CF2302B894E410016955A /* SirikitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B55CF23B2B894E410016955A /* Sirikit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55CF2582B894E410016955A /* Build configuration list for PBXNativeTarget "Sirikit Extension" */;
+			buildPhases = (
+				B55CF2382B894E410016955A /* Sources */,
+				B55CF2392B894E410016955A /* Frameworks */,
+				B55CF23A2B894E410016955A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sirikit Extension";
+			productName = "Sirikit Extension";
+			productReference = B55CF23C2B894E410016955A /* Sirikit Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55CF2012B894E3F0016955A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B55CF2082B894E3F0016955A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B55CF2252B894E410016955A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B55CF2082B894E3F0016955A;
+					};
+					B55CF22F2B894E410016955A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B55CF2082B894E3F0016955A;
+					};
+					B55CF23B2B894E410016955A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B55CF2042B894E3F0016955A /* Build configuration list for PBXProject "Sirikit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55CF2002B894E3F0016955A;
+			productRefGroup = B55CF20A2B894E3F0016955A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55CF2082B894E3F0016955A /* Sirikit */,
+				B55CF2252B894E410016955A /* SirikitTests */,
+				B55CF22F2B894E410016955A /* SirikitUITests */,
+				B55CF23B2B894E410016955A /* Sirikit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55CF2072B894E3F0016955A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF2132B894E3F0016955A /* Icon.png in Resources */,
+				B55CF21F2B894E3F0016955A /* Main.storyboard in Resources */,
+				B55CF21C2B894E3F0016955A /* LaunchScreen.storyboard in Resources */,
+				B55CF2112B894E3F0016955A /* Main.html in Resources */,
+				B55CF2552B894E410016955A /* Assets.xcassets in Resources */,
+				B55CF2152B894E3F0016955A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF2242B894E410016955A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF22E2B894E410016955A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF23A2B894E410016955A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF24B2B894E410016955A /* background.js in Resources */,
+				B55CF2512B894E410016955A /* popup.css in Resources */,
+				B55CF24F2B894E410016955A /* popup.html in Resources */,
+				B55CF2472B894E410016955A /* images in Resources */,
+				B55CF2492B894E410016955A /* manifest.json in Resources */,
+				B55CF2452B894E410016955A /* _locales in Resources */,
+				B55CF24D2B894E410016955A /* content.js in Resources */,
+				B55CF2532B894E410016955A /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55CF2052B894E3F0016955A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF2192B894E3F0016955A /* ViewController.swift in Sources */,
+				B55CF20D2B894E3F0016955A /* AppDelegate.swift in Sources */,
+				B55CF2172B894E3F0016955A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF2222B894E410016955A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF22B2B894E410016955A /* SirikitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF22C2B894E410016955A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF2372B894E410016955A /* SirikitUITestsLaunchTests.swift in Sources */,
+				B55CF2352B894E410016955A /* SirikitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55CF2382B894E410016955A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55CF2422B894E410016955A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55CF2282B894E410016955A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55CF2082B894E3F0016955A /* Sirikit */;
+			targetProxy = B55CF2272B894E410016955A /* PBXContainerItemProxy */;
+		};
+		B55CF2322B894E410016955A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55CF2082B894E3F0016955A /* Sirikit */;
+			targetProxy = B55CF2312B894E410016955A /* PBXContainerItemProxy */;
+		};
+		B55CF23F2B894E410016955A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55CF23B2B894E410016955A /* Sirikit Extension */;
+			targetProxy = B55CF23E2B894E410016955A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55CF20F2B894E3F0016955A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55CF2102B894E3F0016955A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B55CF21A2B894E3F0016955A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55CF21B2B894E3F0016955A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B55CF21D2B894E3F0016955A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55CF21E2B894E3F0016955A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55CF2562B894E410016955A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B55CF2572B894E410016955A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55CF2592B894E410016955A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sirikit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sirikit Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.Sirikit.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55CF25A2B894E410016955A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sirikit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sirikit Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.Sirikit.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B55CF25D2B894E410016955A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sirikit/Sirikit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sirikit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sirikit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.Sirikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55CF25E2B894E410016955A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sirikit/Sirikit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sirikit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Sirikit;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.Sirikit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B55CF2602B894E410016955A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.SirikitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sirikit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sirikit";
+			};
+			name = Debug;
+		};
+		B55CF2612B894E410016955A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.SirikitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sirikit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sirikit";
+			};
+			name = Release;
+		};
+		B55CF2632B894E410016955A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.SirikitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sirikit;
+			};
+			name = Debug;
+		};
+		B55CF2642B894E410016955A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BSU.SirikitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sirikit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55CF2042B894E3F0016955A /* Build configuration list for PBXProject "Sirikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CF2562B894E410016955A /* Debug */,
+				B55CF2572B894E410016955A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55CF2582B894E410016955A /* Build configuration list for PBXNativeTarget "Sirikit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CF2592B894E410016955A /* Debug */,
+				B55CF25A2B894E410016955A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55CF25C2B894E410016955A /* Build configuration list for PBXNativeTarget "Sirikit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CF25D2B894E410016955A /* Debug */,
+				B55CF25E2B894E410016955A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55CF25F2B894E410016955A /* Build configuration list for PBXNativeTarget "SirikitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CF2602B894E410016955A /* Debug */,
+				B55CF2612B894E410016955A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55CF2622B894E410016955A /* Build configuration list for PBXNativeTarget "SirikitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55CF2632B894E410016955A /* Debug */,
+				B55CF2642B894E410016955A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55CF2012B894E3F0016955A /* Project object */;
+}
